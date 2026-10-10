@@ -1,0 +1,62 @@
+{
+	"name": "@three-ws/avatar-schema",
+	"version": "0.2.2",
+	"description": "JSON Schema and validator for three.ws on-chain avatar manifests — the canonical, hash-anchored format any cross-chain client can use to resolve an avatar.",
+	"keywords": [
+		"three.ws",
+		"avatar",
+		"schema",
+		"json-schema",
+		"on-chain",
+		"manifest",
+		"web3",
+		"evm",
+		"solana",
+		"ens",
+		"readyplayerme-alternative",
+		"ai-agents"
+	],
+	"author": "three.ws <support@three.ws> (https://three.ws)",
+	"license": "Apache-2.0",
+	"homepage": "https://nirholas.github.io/avatar-schema/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/avatar-schema.git"
+	},
+	"type": "module",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"import": "./src/index.js",
+			"default": "./src/index.js"
+		},
+		"./schema": "./schema/avatar.v1.json",
+		"./schema/v1": "./schema/avatar.v1.json"
+	},
+	"files": [
+		"schema",
+		"src",
+		"examples",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"test": "node --test test/*.test.js"
+	},
+	"dependencies": {
+		"ajv": "^8.20.0",
+		"ajv-formats": "^3.0.1"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/avatar-schema/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "avatar-schema",
+  "version": "0.2.2",
+  "description": "JSON Schema and Ajv validator for three.ws on-chain avatar manifests, with a skill for validating and fixing manifests.",
+  "author": {"name": "nirholas"},
+  "repository": "https://github.com/nirholas/avatar-schema",
+  "license": "Apache-2.0",
+  "homepage": "https://nirholas.github.io/avatar-schema/",
+  "keywords": ["avatar", "json-schema", "manifest", "on-chain", "validator", "three-ws"]
+}

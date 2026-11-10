@@ -1,0 +1,13 @@
+{
+  "name": "avatar-schema",
+  "owner": {"name": "nirholas"},
+  "description": "Schema and validator for on-chain avatar manifests.",
+  "plugins": [
+    {
+      "name": "avatar-schema",
+      "source": "./",
+      "description": "JSON Schema and Ajv validator for three.ws on-chain avatar manifests, with a skill for validating and fixing manifests.",
+      "tags": ["avatar", "json-schema", "manifest", "validator"]
+    }
+  ]
+}
